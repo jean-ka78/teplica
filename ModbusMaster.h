@@ -362,8 +362,8 @@ void loop_modbus()
  Humid = res;
  NH3 = res1;
   Serial.print("1: "+String(reg_8AC[2]));
-  // Serial.println(" 2: "+String(reg_8AC[3]));
-  // Serial.println(" poliv: "+String(reg_16P[1]));
+  Serial.println(" 2: "+String(reg_8AC[3]));
+  Serial.println(" poliv: "+String(reg_16P[1]));
 
 //  slave_loop();
 
